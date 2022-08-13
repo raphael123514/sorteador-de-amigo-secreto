@@ -1,0 +1,15 @@
+.botaoIniciar {
+  background-color: rgb(255, 96, 34);
+  color: white;
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  height: 50px;
+  width: 250px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: aliceblue;
+}
