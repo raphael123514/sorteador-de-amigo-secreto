@@ -15,12 +15,12 @@ button:active {
   background-color: aliceblue;
 }
 
-.grupo-input-btn button:disabled {
+.divPrincipalFormulario button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-.grupo-input-btn button:hover {
+.divPrincipalFormulario button:hover {
   opacity: 0.8;
 }
 
@@ -40,24 +40,4 @@ button:active {
   margin-bottom: 32px;
 
 
-}
-
-.divForm {
-  margin-top: -32px;
-  border: 5px solid;
-  background-color: antiquewhite;
-  margin-bottom: 0;
-  min-height: 100%;
-  display: flex;
-  border-radius: 50px 50px 0px 0px;
-  justify-content: center;
-}
-
-.divCampos {
-  text-align: center;
-  padding-top: 50px;
-}
-
-.divComecar {
-  justify-content: flex-start;
 }
