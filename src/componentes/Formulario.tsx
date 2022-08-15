@@ -1,8 +1,6 @@
 import { useRef, useState } from "react"
 import { useAdicionarParticipante } from "../state/hook/useAdicionarParticipante"
 import { useMensagemDeErro } from "../state/hook/useMensagemDeErro"
-import Cabecalho from "./Cabecalho"
-import Rodape from "./Rodape"
 import "./Formulario.css";
 
 const Formulario = () => {
