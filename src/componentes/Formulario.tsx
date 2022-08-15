@@ -24,27 +24,21 @@ const Formulario = () => {
     
     return (
         <>
-            <Cabecalho />
             <form onSubmit={adicionarParticipante}>
-                <div className="divPrincipal">
-                    <div className="divForm">
-                        <div className="divCampos">
-                            <h1 className="h1">Vamos começar!</h1>
-                            <input
-                                ref={inputRef}
-                                value={nome}
-                                onChange={evento => setNome(evento.target.value)}
-                                type="text"
-                                placeholder="Insira os nomes dos participantes"
-                                className="inputParticipante"
-                            />
-                            <button disabled={!nome} className="botao">Adicionar</button>
-                            {mensagemDeErro && <p role="alert">{mensagemDeErro}</p>}
-                        </div>
-                    </div>
+                <div className="divPrincipalFormulario">
+
                 </div>
+                <input
+                    ref={inputRef}
+                    value={nome}
+                    onChange={evento => setNome(evento.target.value)}
+                    type="text"
+                    placeholder="Insira os nomes dos participantes"
+                    className="inputParticipante"
+                />
+                <button disabled={!nome} className="botao">Adicionar</button>
+                {mensagemDeErro && <p role="alert">{mensagemDeErro}</p>}
             </form>
-            <Rodape />  
         </>
     )
 }

@@ -12,8 +12,9 @@ const Rodape = () => {
   }
 
   return (
-    <footer>
+    <footer className="rodape">
       <button disabled={participantes.length < 3} onClick={iniciar} className="botaoIniciar">Iniciar brincadeira</button>
+      <img src="/imagens/sacolas.png" alt="Sacolas de compras" />
     </footer>
 
   );

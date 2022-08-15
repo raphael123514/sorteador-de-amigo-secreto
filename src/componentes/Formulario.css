@@ -15,6 +15,15 @@ button:active {
   background-color: aliceblue;
 }
 
+.grupo-input-btn button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.grupo-input-btn button:hover {
+  opacity: 0.8;
+}
+
 .inputParticipante {
   size: 10px;
   border-radius: 25px 0px 0px 25px;
@@ -27,10 +36,9 @@ button:active {
 
 }
 
-.divPrincipal{
-  min-height: 100%;
-  height: 61vh;
-  margin-bottom: 0;
+.divPrincipalFormulario{
+  margin-bottom: 32px;
+
 
 }
 
@@ -52,14 +60,4 @@ button:active {
 
 .divComecar {
   justify-content: flex-start;
-}
-
-.h1 {
-  color: rgb(72, 124, 236);
-}
-
-.nomesParticipantes {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }

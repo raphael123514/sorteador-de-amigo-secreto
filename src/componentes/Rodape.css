@@ -1,3 +1,9 @@
+.rodape{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .botaoIniciar {
   background-color: rgb(255, 96, 34);
   color: white;
@@ -12,4 +18,26 @@
 
 button:active {
   background-color: aliceblue;
+}
+
+.botao:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.botao:hover {
+  background-color: #4B69FD;
+}
+
+@media screen and (max-width: 800px) {
+  .botao {
+      width: 220px;
+      margin: 32px 0;
+  }
+  .rodape-configuracoes {
+      flex-direction: column;
+  }
+  .rodape-configuracoes img {
+      margin-top: 32px;
+  }
 }
