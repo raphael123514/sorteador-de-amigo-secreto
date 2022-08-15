@@ -26,20 +26,21 @@ exports[`a pagina de configuracao deve ser renderizada corretamente 1`] = `
       <form>
         <div
           class="divPrincipalFormulario"
-        />
-        <input
-          class="inputParticipante"
-          placeholder="Insira os nomes dos participantes"
-          type="text"
-          value=""
-        />
-        <button
-          class="botao"
-          disabled=""
         >
-          Adicionar
-        </button>
-        
+          <input
+            class="inputParticipante"
+            placeholder="Insira os nomes dos participantes"
+            type="text"
+            value=""
+          />
+          <button
+            class="botao"
+            disabled=""
+          >
+            Adicionar
+          </button>
+          
+        </div>
       </form>
       <ul />
       <footer
