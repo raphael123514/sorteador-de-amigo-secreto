@@ -11,16 +11,18 @@ jest.mock('../state/hook/useListaDeParticipantes', () => {
 })
 
 describe('na pagina de sorteio', () => {
-  test('todos os participantes podem exibir o seu amigo secreto', () => {
-    const participantes = [ 
-      'Raphael',
-      'Dianna',
-      "Felipe"
-    ]
+  const participantes = [ 
+    'Raphael',
+    'Dianna',
+    "Felipe"
+  ]
+  
+  beforeEach(() => {
+    (useListaDeParticipantes as jest.Mock).mockReturnValue(participantes)
+  })
 
-    beforeEach(() => {
-      (useListaDeParticipantes as jest.Mock).mockReturnValue(participantes)
-    })
+  test('todos os participantes podem exibir o seu amigo secreto', () => {
+
 
     render(<RecoilRoot>
         <Sorteio />

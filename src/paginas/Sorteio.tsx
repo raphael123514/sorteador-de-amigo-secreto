@@ -8,7 +8,7 @@ const Sorteio = () => {
     <section>
       <form>
         <select name="participanteDaVez" id="participanteDaVez">
-          {participantes.map(participante => <option key={participante} >{participante}</option>)}
+          {participantes.map(participante => <option key={participante}>{participante}</option>)}
         </select>
       </form>
     </section>
