@@ -16,21 +16,21 @@
   cursor: pointer;
 }
 
-button:active {
+.botaoIniciar:active {
   background-color: aliceblue;
 }
 
-.botao:disabled {
+.botaoIniciar:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
 
-.botao:hover {
+.botaoIniciar:hover {
   background-color: #4B69FD;
 }
 
 @media screen and (max-width: 800px) {
-  .botao {
+  .botaoIniciar {
       width: 220px;
       margin: 32px 0;
   }

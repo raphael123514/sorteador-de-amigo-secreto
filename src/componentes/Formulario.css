@@ -11,17 +11,13 @@
 
 }
 
-button:active {
-  background-color: aliceblue;
+.botao:hover {
+  opacity: 0.8;
 }
 
-.divPrincipalFormulario button:disabled {
+.botao:disabled {
   opacity: 0.6;
   cursor: not-allowed;
-}
-
-.divPrincipalFormulario button:hover {
-  opacity: 0.8;
 }
 
 .inputParticipante {
